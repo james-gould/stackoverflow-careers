@@ -1,0 +1,28 @@
+{
+  "name": "stackoverflow-careers",
+  "version": "1.0.0",
+  "description": "A wrapper for the StackOverflow careers feed.",
+  "main": "index.js",
+  "dependencies": {
+    "libxmljs": "^0.18.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-gould/stackoverflow-careers.git"
+  },
+  "keywords": [
+    "stackoverflow",
+    "careers",
+    "api"
+  ],
+  "author": "James Gould",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/james-gould/stackoverflow-careers/issues"
+  },
+  "homepage": "https://github.com/james-gould/stackoverflow-careers#readme"
+}
