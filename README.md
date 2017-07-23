@@ -9,7 +9,7 @@ Unfortunately, due to limitations of the RSS feeds, only the latest 25 listings 
 
     SO.getCareers({
         Location: "Germany",
-        Languages: ["javascript", "c#", "java"],
+        TechLiked: ["javascript", "c#", "java"],
         Distance: 20 // Miles
     }, (result) => {
         // Do stuff with your job listings!
