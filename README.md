@@ -5,6 +5,14 @@ Unfortunately, due to limitations of the RSS feeds, only the latest 25 listings 
 
 # Usage
 
+Before use, make sure you install the library with the following command:
+
+    npm install stackoverflow-careers --save-dev
+
+where `--save-dev` will add it to your `package.json` dependencies.
+
+Next, add the following into your Nodejs project:
+
     let SO = require('stackoverflow-careers');
 
     StackOverflow.getCareers({
