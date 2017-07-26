@@ -4,7 +4,7 @@
   "description": "A wrapper for the StackOverflow careers feed.",
   "main": "index.js",
   "dependencies": {
-    "libxmljs": "^0.18.7"
+    "xml2js": "0.4.17"
   },
   "devDependencies": {
     "xml2js": "^0.4.17"
