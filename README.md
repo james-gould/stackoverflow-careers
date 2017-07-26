@@ -7,10 +7,12 @@ Unfortunately, due to limitations of the RSS feeds, only the latest 25 listings 
 
     let SO = require('stackoverflow-careers');
 
-    SO.getCareers({
-        Location: "Germany",
-        TechLiked: ["javascript", "c#", "java"],
-        Distance: 20 // Miles
-    }, (result) => {
-        // Do stuff with your job listings!
+    StackOverflow.getCareers({
+            location: "london",
+            tl: ["javascript", "java", "c"],
+            unit: "miles"
+        }, (jobs) => {
+            jobs.forEach((job) => {
+                console.log(job);
+            });
     });
