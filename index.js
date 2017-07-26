@@ -1,1 +1,1 @@
-module.exports.StackOverflow = require('./lib/SO.js');
+module.exports = require('./lib/SO.js');
