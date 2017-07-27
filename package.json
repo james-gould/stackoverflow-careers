@@ -1,6 +1,6 @@
 {
   "name": "stackoverflow-careers",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "A wrapper for the StackOverflow careers feed.",
   "main": "index.js",
   "dependencies": {
