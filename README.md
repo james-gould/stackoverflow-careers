@@ -13,7 +13,7 @@ where `--save-dev` will add it to your `package.json` dependencies.
 
 Next, add the following into your Nodejs project:
 
-    let SO = require('stackoverflow-careers');
+    let StackOverflow = require('stackoverflow-careers');
 
     StackOverflow.getCareers({
             location: "london", // Location for the job. Making this more specific will yield better results.
