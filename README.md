@@ -7,13 +7,11 @@ Unfortunately, due to limitations of the RSS feeds, only the latest 25 listings 
 
 Before use, make sure you install the library with the following command:
 
-    npm install stackoverflow-careers --save-dev
-
-where `--save-dev` will add it to your `package.json` dependencies.
+    npm install stackoverflow-careers
 
 Next, add the following into your Nodejs project:
 
-    let StackOverflow = require('stackoverflow-careers');
+    const StackOverflow = require('stackoverflow-careers');
 
     StackOverflow.getCareers({
             location: "london", // Location for the job. Making this more specific will yield better results.
