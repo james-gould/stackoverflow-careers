@@ -24,3 +24,8 @@ Next, add the following into your Nodejs project:
                 console.log(job);
             });
     });
+
+# Outstanding issues
+
+- I'm aware that the output for the main job listing is full of HTML tags. I'm looking for a way to solve this ASAP (read: not in the quickest, most horrendous way possible) and I'm open to suggestions.
+- The output objects are a bit nasty. I'll clean these up in the next release (a few days time when I get the chance).
