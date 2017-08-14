@@ -27,6 +27,10 @@ Next, add the following into your Nodejs project:
 
 JSDocs have been added to exposed API endpoints, any further issues please feel free to open up an issue on the [Github repository](https://github.com/james-gould/stackoverflow-careers/issues)
 
+# Changelog
+
+**v1.1** - Implemented HTML character encoding to allow searches contained special characters. This means you won't be receiving results for `C` when you search for `C#`. Nifty!
+
 # Outstanding issues
 
 - I'm aware that the output for the main job listing is full of HTML tags. I'm looking for a way to solve this ASAP (read: not in the quickest, most horrendous way possible) and I'm open to suggestions.
