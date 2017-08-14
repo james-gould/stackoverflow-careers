@@ -25,7 +25,7 @@ Next, add the following into your Nodejs project:
             });
     });
 
-JSDocs have been added to exposed API endpoints, any further issues please feel free to open up an issue on the [Github repository](https://github.com/james-gould/stackoverflow-careers)
+JSDocs have been added to exposed API endpoints, any further issues please feel free to open up an issue on the [Github repository](https://github.com/james-gould/stackoverflow-careers/issues)
 
 # Outstanding issues
 
