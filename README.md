@@ -25,11 +25,18 @@ Next, add the following into your Nodejs project:
             });
     });
 
+
 JSDocs have been added to exposed API endpoints, any further issues please feel free to open up an issue on the [Github repository](https://github.com/james-gould/stackoverflow-careers/issues)
 
 # Changelog
 
 **v1.1** - Implemented HTML character encoding to allow searches contained special characters. This means you won't be receiving results for `C` when you search for `C#`. Nifty!
+
+# Contributing
+
+- I've used the Airbnb ESLint configuration for this project and any pull requests that don't lint correctly under it will be rejected. If you're unsure how to install this specific config, [I've written a guide here](http://fullstackhumanoid.com/quick-eslint-set-up-with-google-airbnb-or-standard-rulesets/)
+
+- All exposed API endpoints must be fully JSDoc'd. [An example can be seen here](https://github.com/james-gould/stackoverflow-careers/blob/master/lib/SO.js#L59-L67). In my experience this prevents a lot of issues being raised because people know what to expect :smile:
 
 # Outstanding issues
 
