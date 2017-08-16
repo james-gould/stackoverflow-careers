@@ -32,6 +32,8 @@ JSDocs have been added to exposed API endpoints, any further issues please feel 
 
 **v1.1** - Implemented HTML character encoding to allow searches contained special characters. This means you won't be receiving results for `C` when you search for `C#`. Nifty!
 
+**v1.2** Fixed some silly errors that I released to everyone following a deprecation. Sorry! Please `npm outdated && npm update` to make sure you have the latest version.
+
 # Contributing
 
 - I've used the Airbnb ESLint configuration for this project and any pull requests that don't lint correctly under it will be rejected. If you're unsure how to install this specific config, [I've written a guide here](http://fullstackhumanoid.com/quick-eslint-set-up-with-google-airbnb-or-standard-rulesets/)
