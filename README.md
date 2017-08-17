@@ -34,10 +34,6 @@ JSDocs have been added to exposed API endpoints, any further issues please feel 
 
 **v1.2** Fixed some silly errors that I released to everyone following a deprecation. Sorry! Please `npm outdated && npm update` to make sure you have the latest version.
 
-# Contributing
-
-- All exposed API endpoints must be fully JSDoc'd. [An example can be seen here](https://github.com/james-gould/stackoverflow-careers/blob/master/lib/SO.js#L59-L67). In my experience this prevents a lot of issues being raised because people know what to expect :smile:
-
 # Outstanding issues
 
 - I'm aware that the output for the main job listing is full of HTML tags. I'm looking for a way to solve this ASAP (read: not in the quickest, most horrendous way possible) and I'm open to suggestions.
