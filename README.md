@@ -14,15 +14,15 @@ Next, add the following into your Nodejs project:
     const StackOverflow = require('stackoverflow-careers');
 
     StackOverflow.getCareers({
-            location: "london", // Location for the job. Making this more specific will yield better results.
-            query: "contractor positions", // Any additional requirements, such as part time, contractor, startup etc.
-            techLiked: ["javascript", "java", "c"], // Tech liked
-            techDisliked: ["perl", "rust", "fortran"], // Tech disliked
-            unit: "miles" // Unit of measurement.
-        }, (jobs) => {
-            jobs.forEach((job) => {
-                console.log(job);
-            });
+        location: "london",
+        query: "contractor positions", 
+        techLiked: ["javascript", "java", "c"], 
+        techDisliked: ["perl", "rust", "fortran"], 
+        unit: "miles" 
+    }, (jobs) => {
+        jobs.forEach((job) => {
+            console.log(job);
+        });
     });
 
 
